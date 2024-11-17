@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Heading, Image, Text } from '@chakra-ui/react'
 import { StaticImageData } from 'next/image'
-import userImage from '../../assets/download.jpg'
+import userImage from '../../src/assets/download.jpg'
 import LandingInfo from '@/components/Landing-info'
 
 interface TeamMemberProps {
