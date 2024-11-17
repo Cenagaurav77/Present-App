@@ -1,9 +1,9 @@
 import { TPage } from '@/shared/types'
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import DisplayPage from '../../components/Play/DisplayPage'
+import DisplayPage from '@/components/Play/DisplayPage'
 import { useToast } from '@chakra-ui/react'
-import ControlsBar from '../../components/Play/ControlsBar'
+import ControlsBar from '@/components/Play/ControlsBar'
 import { useParams } from 'next/navigation'
 
 export interface PlayPresentationProps {
