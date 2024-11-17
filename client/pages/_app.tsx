@@ -1,6 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import '../app/globals.css'
-import store from '../redux/store'
+import '../styles/globals.css'
+import store from '../src/redux/store'
 import { Provider } from 'react-redux'
 import { ThemeProvider } from '@/shadcn/themeProvider'
 
